@@ -14,7 +14,16 @@
 (04)	git checkout Paco
 (13)		git checkout master
 (14)																La fusión de Lola dentro de master seria
-																		fusion rápida porque el unico archivo modificado
-																		sería bitacora.txt y no ha sido modificado en
+																		fusion recursiva no conflictiva porque existia 
+																		bitacora.txt y no ha sido modificado en
 																		master en ese punto.
 
+(16)	git add bitacora.txt
+(17)	git commit -m "Paso 17"
+(18)	git merge Paco 								Error: conflicto al hacer merge en bitacora.txt,
+																		arreglados los conflictos seleccionando "Aceptar
+																		ambos cambios" en VisualStudioCode y reorganizando
+																		el fichero para que apareciesen primero los pasos
+																		iniciales. Fusion recursiva conflictiva porque ambas ramas
+																		habian realizado cambios en las mismas lineas de codigo.
+								
