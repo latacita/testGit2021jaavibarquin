@@ -1,8 +1,14 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Barquin Escalada, Javier             %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(01)		git clone URL								Hecho desde SourceTree botón Nuevo > 
+																		clonar desde URL > Copiada URL repo >
+																		Clonar.
+(02)	git branch Paco
+(03)	git branch Lola
+(04)	git checkout Paco
