@@ -40,4 +40,6 @@
 (28) 		git merge Lola 							Aqui en realidad creo que deberia hacer --no-ff para que
 																		fuese recursiva (en la previa lo mismo) pero bueno no puedo
 																		deshacerlo ya, Error de conflicto Fusion recursiva conflictiva.
-																		
+(32) 		git push desde SourceTree		Desde sourcetree hago click en el boton Push y selecciono en el
+																		Origin las tres ramas locales para que hagan push a sus respectivas
+																		ramas Remotas (Paco y Lola se crean solas). No me han salido fallos.
